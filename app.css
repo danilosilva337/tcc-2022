@@ -1,0 +1,103 @@
+#header {
+    position: relative;
+    width: 100%;
+    background: #0d6efd;
+    text-align: center;  
+    padding: 0.1em 0;
+}
+
+#header h1 {
+    color: #FFFFFF;
+    text-align: center;  
+    font: 34pt Century Gothic;
+
+}
+#header h2 {
+    color: #0d6efd;
+    text-align: center;  
+    padding: 0.1em 0;
+    font: medium Century Gothic;
+}
+#header h6 {
+    color: #FFFFFF;
+    text-align: center;  
+    text-decoration: underline;
+    line-height: 2;
+    font: bold Century Gothic;
+}
+
+#btnEntrar {
+    display: inline-block;
+    padding: 0.2em;
+    text-align: center;
+    line-height: 1.4;
+    color:#0d6efd;
+    background: #FFFFFF;
+    border-color: #0d6efd;
+    border-radius: 30%;
+}
+
+#main h1 {
+    color: #000000;
+    text-align: center;  
+    font: 37pt Century Gothic;
+    padding: 0.2em 0;
+}
+#main h2 {
+    color: #FFFFFF;
+    background-color: #0d6efd;
+    text-align: center;  
+    font: bold  32pt Century Gothic;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-decoration: none;
+    border: #0d6efd 10px;
+    border-radius: 7%;
+    line-height: 1.4;
+}
+#main h5 {
+    color: #000000;
+    text-align: center;  
+    font: 17pt Century Gothic;
+    line-height: 7.0;
+    margin-bottom: -7%;
+}
+#main h6 {
+    font: 15pt Century Gothic;
+
+}
+#main h4 {
+    font: 17pt Century Gothic;
+
+}
+
+.pulse {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 30px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+     
+    }
+    100% {
+      transform: scale(1.1);
+      
+    }
+  }

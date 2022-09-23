@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content ="ie=edge">
+    <title>Área de acesso - Procurachei</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta name="color-scheme" content="dark-light">
+</head>
+<body>
+    <header id="header">
+        <h2> </h2>
+        <button type="button" style="left: 45%;" class="btn btn-primary position-relative">
+            Sua Conta
+            <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">Novas mensagens</span>
+            </span>
+          </button>
+        <h1>  Área de acesso  </h1>
+
+    <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário">
+    <input type="text" id="senha" name="senha" placeholder="Digite sua senha">
+    <button type="button" id="btnEntrar" onclick="checkLogin()">Entrar</button>
+
+    <h6> Cadastre-se clicando aqui</h6>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color:white;" href="#">procurachei.com.br</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color:white;" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;" href="#">Sobre nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fale Conosco
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Procurar algo</a></li>
+                  <li><a class="dropdown-item" href="#">Achei algo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Suporte</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-3" type="search" placeholder="Digite aqui" aria-label="Procurar">
+              <button class="btn btn-primary" style="border: 2px solid; white" submit>Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p></p>
+                    <h1 style="text-align: center;">Perdeu ou encontrou algo ou alguém?</h1>
+                   <a href="#"> <h2 class="pulse" style="text-align: center;"> ANUNCIE AQUI </h2>  </a>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="./imgs/mapa.png" alt="">
+                </div>
+            </div>
+        </div>
+<a href="#"> <img class="pulse" src="./imgs/setasbaixo.png" alt=""></li> </a>
+</main>
+<script type="text/javascript" src="./js/bootstrap.bundle.js"></script> 
+<script>
+
+   
+
+
+function checkLogin(){
+    if (usuario.value == ''){
+        alert("Preencha o campo de usuário");
+    } else if (senha.value == ''){
+        alert("Preencha o campo de senha");
+    }
+
+}
+</script>
+</body>
+</html>
