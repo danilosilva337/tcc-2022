@@ -19,7 +19,7 @@
   background: #0d6efd;
   color: #FFFFFF;
   text-align: center;  
-  font: 34pt Century Gothic;
+  font: 27pt Century Gothic;
 }
 #header h2 {
     color: #0d6efd;
@@ -36,14 +36,7 @@
 }
 
 #btnEntrar {
-    display: inline-block;
-    padding: 0.2em;
-    text-align: center;
-    line-height: 1.4;
-    color:#0d6efd;
-    background: #FFFFFF;
-    border-color: #0d6efd;
-    border-radius: 30%;
+  font: bold  17pt Century Gothic;
 }
 
 #primeirotitulo {
@@ -52,7 +45,7 @@
     font: 40pt Century Gothic;
     padding: 0.2em 0;
     padding-top: 10%;
-    padding-bottom: 22%;
+    padding-bottom: 7%;
 }
 #achadoseperdidos {
     color: #FFFFFF;
@@ -65,6 +58,9 @@
     border: #0d6efd 10px;
     border-radius: 7%;
     line-height: 1.4;
+}
+#main {
+  background-color: #f6f8fa;
 }
 #main h1 {
   color: #000000;
@@ -96,7 +92,7 @@
   font: bold 15pt Century Gothic;
 
 }
-#siteh1 {
+#comofunciona {
   color: #000000;
   text-align: center;  
   font: 45pt Century Gothic;
@@ -127,7 +123,6 @@
     animation: pulse 0.7s infinite;
     margin: 0 auto;
     display: table;
-    margin-top: 30px;
     animation-direction: alternate;
     -webkit-animation-name: pulse;
     animation-name: pulse;
@@ -153,3 +148,54 @@
       
     }
   }
+  #footer {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+  }
+  #menufooter {
+    color: #FFFFFF;
+    font: 13pt Century Gothic;
+  }
+  #menufooter1 {
+    color: #FFFFFF;
+    font: bold 14pt Century Gothic;
+  }
+  #footerzinho {
+    background-color: #1f1f1f;
+    width: 100%;
+    font: 11pt Century Gothic;
+    color: #cccccc;
+  }
+  #areadeacesso {
+    color: #0d6efd;
+    text-align: center;  
+    font: bold 42pt Century Gothic;
+    width: 100%;
+  }
+  #esqueceu{
+    font: 11pt Century Gothic;
+    padding-top: 3%;
+    text-align: right;
+    color: #000000;
+  }
+  #ntcadastro{
+    font: 15pt Century Gothic;
+    padding-top: 10%;
+    text-align: center;
+    color: #000000;
+  }
+  html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}

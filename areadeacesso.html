@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content ="ie=edge">
+    <title>Área de Acesso - Procurachei</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta name="color-scheme" content="dark-light">
+</head>
+<body>
+    <header id="header">
+      <nav class="navbar fixed-top navbar-expand-lg bg-primary"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img style="width: 70%;" src="imgs/logo.png" alt="Logo escrito Procurachei com lupa e icone de localização atrás"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color:white;" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;" href="index.html#sobrenos">Sobre nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acesse sua conta
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Já sou cadastrado</a></li>
+                  <li><a class="dropdown-item" href="#">Quero me cadastrar</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Esqueci minha senha</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Achados e Perdidos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Estou procurando &#129488</a></li>
+                  <li><a class="dropdown-item" href="#">Achei aqui &#128512</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html#comofunciona">Como funciona</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-3" type="search" placeholder="O que está buscando?" aria-label="Procurar">
+              <button class="btn btn-primary" style="border: 2px solid; white;" submit>Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+<h1 id="areadeacesso" style="padding-top: 22%; padding-bottom: 7%;"> Área de Acesso </h1>
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="nome@exemplo.com">
+  <label for="floatingInput">Endereço de email</label>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Senha</label>
+</div>
+<p></p>
+<button type="button" class="btn btn-primary" style="width: 100%;" id="btnEntrar">Entrar</button>
+<a href="#" style="text-decoration:none"> <p id="esqueceu">Esqueceu sua senha?</p> </a>
+<a href="#" style="text-decoration:none"> <p id="ntcadastro">Não tem cadastro?</p> </a>
+<a href="#" style="text-decoration:none"> <h6 id="botaofunciona"> Comece agora </h6>  </a>
+</div>
+</div>
+</div>
+<p style="margin-top:7%"> </p>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p> </p>
+      <p id="menufooter1"> Menu </p>
+      <a href="#titulodapagina" style="text-decoration:none"> <h1 id="menufooter"> Início </h1>  </a>
+      <a href="#sobrenos" style="text-decoration:none"> <h1 id="menufooter"> Sobre nós </h1>  </a>
+      <a href="#" style="text-decoration:none"> <h1 id="menufooter"> Acesse sua conta </h1>  </a>
+      <a href="#" style="text-decoration:none"> <h1 id="menufooter"> Achados e Perdidos </h1>  </a>
+    </div>
+    <div class="col-md-4">
+      <h1></h1>
+    </div>
+    <div class="col-md-4">
+      <p></p>
+      <p id="menufooter1">Ajuda</p>
+      <a href="#comofunciona" style="text-decoration:none"><h1 id="menufooter"> Como funciona </h1> </a>
+      <a href="#" style="text-decoration:none"><h1 id="menufooter"> Duvidas frequentes </h1> </a>
+    </div>
+    </div>
+  </div>
+
+</footer>
+<div id="footerzinho">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h5 id="footerzinho"> © ProcurAchei 2022 - Todos os Direitos Reservados</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="./js/bootstrap.bundle.js"></script> 
+<script>
+
+   
+
+
+function checkLogin(){
+    if (usuario.value == ''){
+        alert("Preencha o campo de usuário");
+    } else if (senha.value == ''){
+        alert("Preencha o campo de senha");
+    }
+
+}
+</script>
+</body>
+</html>
