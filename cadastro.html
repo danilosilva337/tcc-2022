@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content ="ie=edge">
-    <title>Área de Acesso - Procurachei</title>
+    <title>Cadastre-se - Procurachei</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./app.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -32,8 +32,8 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="areadeacesso.html">Meu perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Já sou cadastrado</a></li>
-                  <li><a class="dropdown-item" href="cadastro.html">Quero me cadastrar</a></li>
+                  <li><a class="dropdown-item" href="areadeacesso.html">Já sou cadastrado</a></li>
+                  <li><a class="dropdown-item" href="#">Quero me cadastrar</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="esqueciminhasenha.html">Esqueci minha senha</a></li>
                 </ul>
@@ -62,31 +62,97 @@
     <div class="row">
       <div class="col-md-4"></div>
       <div class="col-md-4">
-<h1 id="areadeacesso" style="padding-top: 22%; padding-bottom: 7%;"> Área de Acesso </h1>
-<div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="nome@exemplo.com">
-  <label for="floatingInput">Endereço de email</label>
+<h1 id="areadeacesso" style="padding-top: 22%; padding-bottom: 7%;"> Cadastre-se </h1>
+<div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label">Nome Completo * </label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder=" ">
 </div>
-<div class="form-floating">
-  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-  <label for="floatingPassword">Senha</label>
-</div>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">CPF * </label>
+    <input type="text" class="form-control" id="inputCPF">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">RG</label>
+    <input type="text" class="form-control" id="inputRG">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email * </label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Senha * </label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Endereço</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder=" ">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Complemento</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder=" ">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Cidade</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Estado</label>
+    <select id="inputState" class="form-select">
+      <option selected>Escolha...</option>
+      <option>Acre (AC)</option>
+      <option> Alagoas (AL) </option>
+      <option> Amapá (AP) </option>
+      <option> Amazonas (AM) </option>
+      <option> Bahia (BA) </option>
+      <option> Ceará (CE) </option>
+      <option> Distrito Federal (DF) </option>
+      <option> Espírito Santo (ES) </option>
+      <option> Goiás (GO) </option>
+      <option> Maranhão (MA) </option>
+      <option> Mato Grosso (MT) </option>
+      <option> Mato Grosso do Sul (MS) </option>
+      <option> Minas Gerais (MG) </option>
+      <option> Pará (PA) </option>
+      <option> Paraíba (PB) </option>
+      <option> Paraná (PR) </option>
+      <option> Pernambuco (PE) </option>
+      <option> Piauí (PI) </option>
+      <option> Rio de Janeiro (RJ) </option>
+      <option> Rio Grande do Norte (RN) </option>
+      <option> Rio Grande do Sul (RS) </option>
+      <option> Rondônia (RO) </option>
+      <option> Roraima (RR) </option>
+      <option> Santa Catarina (SC) </option>
+      <option> São Paulo (SP) </option>
+      <option> Sergipe (SE) </option>
+      <option> Tocantins (TO) </option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">CEP</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Telefones para contato </label>
+    <input type="text" class="form-control" id="inputFONE1">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" style="color: white;" class="form-label"> . </label>
+    <input type="text" class="form-control" id="inputFONE2">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Aceito os termos e condições para utilizar a plataforma
+      </label>
+    </div>
+  </div>
+
+</form>
 <p></p>
 <button type="button" class="btn btn-primary" style="width: 100%;" id="btnEntrar">Entrar</button>
-
-
-<div class="col-12">
-  <div class="form-check" style="padding-top: 2%;">
-    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
-    <label class="form-check-label" for="inlineFormCheck">
-      Lembre-me deste acesso
-    </label>
-  </div>
-</div>
-
-<a href="esqueciminhasenha.html" style="text-decoration:none;"> <p id="esqueceu">Esqueceu sua senha?</p> </a>
-<a href="cadastro.html" style="text-decoration:none"> <p id="ntcadastro">Não tem cadastro?</p> </a>
-<a href="cadastro.html" style="text-decoration:none"> <h6 id="botaofunciona"> Comece agora </h6>  </a>
 </div>
 </div>
 </div>
@@ -99,7 +165,7 @@
         <p> </p>
       <p id="menufooter1"> Menu </p>
       <a href="index.html" style="text-decoration:none"> <h1 id="menufooter"> Início </h1>  </a>
-      <a href="index.html" style="text-decoration:none"> <h1 id="menufooter"> Sobre nós </h1>  </a>
+      <a href="index.html#sobrenos" style="text-decoration:none"> <h1 id="menufooter"> Sobre nós </h1>  </a>
       <a href="areadeacesso.html" style="text-decoration:none"> <h1 id="menufooter"> Acesse sua conta </h1>  </a>
       <a href="#" style="text-decoration:none"> <h1 id="menufooter"> Achados e Perdidos </h1>  </a>
     </div>

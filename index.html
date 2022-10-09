@@ -1,192 +1,236 @@
 <!DOCTYPE html>
-<html lang ="pt-BR">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content ="ie=edge">
-    <title>Início - Procurachei</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./app.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <meta name="color-scheme" content="dark-light">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Início - Procurachei</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <meta name="color-scheme" content="dark-light">
 </head>
+
 <body>
-    <header id="header">
-      <nav class="navbar fixed-top navbar-expand-lg bg-primary"> 
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img style="width: 70%;" src="imgs/logo.png" alt="Logo escrito Procurachei com lupa e icone de localização atrás"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" style="color:white;" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color:white;" href="#sobrenos">Sobre nós</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Acesse sua conta
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="areadeacesso.html">Já sou cadastrado</a></li>
-                  <li><a class="dropdown-item" href="#">Quero me cadastrar</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Esqueci minha senha</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Achados e Perdidos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Estou procurando &#129488</a></li>
-                  <li><a class="dropdown-item" href="#">Achei aqui &#128512</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#comofunciona">Como funciona</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-3" type="search" placeholder="O que está buscando?" aria-label="Procurar">
-              <button class="btn btn-primary" style="border: 2px solid; white;" submit>Procurar</button>
-            </form>
-          </div>
+
+  <header id="header">
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img style="width: 70%;" src="imgs/logo.png"
+            alt="Logo escrito Procurachei com lupa e icone de localização atrás"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" style="color:white;" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:white;" href="#sobrenos">Sobre nós</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Acesse sua conta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="areadeacesso.html">Meu perfil</a></li>
+                <li><a class="dropdown-item" href="areadeacesso.html">Já sou cadastrado</a></li>
+                <li><a class="dropdown-item" href="cadastro.html">Quero me cadastrar</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="esqueciminhasenha.html">Esqueci minha senha</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" style="color:white;" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Achados e Perdidos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Estou procurando &#129488</a></li>
+                <li><a class="dropdown-item" href="#">Achei aqui &#128512</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#comofunciona">Como funciona</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-3" type="search" placeholder="O que está buscando?" aria-label="Procurar">
+            <button class="btn btn-primary" style="border: 2px solid; white;" submit>Procurar</button>
+          </form>
         </div>
-      </nav>
-    </header>
-    <p style="margin-top:7%"> </p>
-    <article>
-        <div class="container-fluid">
-            <div style="width: 100%;" class="row">
-                <div class="col-md-6">
-                 
-                    <h1 id="primeirotitulo" style="text-align: center;">Encontre ou divulgue algo ou alguém nos nossos </h1>
-                   <a href="#" style="text-decoration:none"> <h2 id="achadoseperdidos" class="pulse"> Achados e Perdidos </h2>  </a>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid" style="width: 67%;" src="./imgs/mapa.jpg" alt="Foto de uma pessoa apontando para um mapa com uma lupa em um icone de localização">
-                </div>
-            </div>
-        </div>
-        <p></p>
-<a href="#sobrenos"> <img class="pulse" src="./imgs/setasbaixo.png" alt="setas apontando para baixo"></li> </a>
-</article>
-<p style="margin-top:7%"> </p>
-<main id="main">
-  <p id="sobrenos" style="color: #f6f8fa;">.</p>
-  <p style="color: #f6f8fa;"> . </p>
-<div  class="container">
-    <div class="row">
-    <div class="col-md-6">
-        <img class="img-fluid" style="border-radius: 10%;" src="./imgs/team.webp" alt="equipe de pessoas dando a mão">
-    </div>
+      </div>
+    </nav>
+  </header>
+
+  <p style="margin-top:7%"> </p>
+
+  <article>
+    <div class="container-fluid">
+      <div class="row">
         <div class="col-md-6">
-            <p></p>
-            <h6 style="text-align: left;"> Conheça mais nossas sobre nossas funções </h6>
-            <h1 style="text-align: left;">Sobre nós</h1>
-            <p style="margin-top:2%"></p>
-            <h4 style="text-align: left;">A equipe do Procurachei visa auxiliar o usuário a se encontrar. Para isso utilizamos metódos que buscam
-            minimizar a complexidade do usuário em tarefas simples que é localizar o dono de algum item perdido, achar seu próprio item ou tarefas mais 
-            complexas como encontrar uma pessoa desaparecida! </h4>
-</div>
-</div>
-</div>
-<p style="margin-top:3%"></p>
-<div  class="container">
-    <div style="flex-direction: row-reverse;" class="row">
-    <div class="col-md-6">
-      <img id="sobrenos" class="img-fluid" style="border-radius: 10%;" src="./imgs/agilize_600x.webp" alt="Imagem de trem rápido indicando velocidade">
+
+          <h1 id="primeirotitulo" style="text-align: center;">Encontre ou divulgue algo ou alguém nos nossos </h1>
+          <a href="#" style="text-decoration:none">
+            <h6 id="achadoseperdidos" style="width: 70%;" class="pulse"> Achados e Perdidos </h6>
+          </a>
+        </div>
+        <div style="text-align: center;" class="col-md-6">
+          <img class="img-fluid" style="width: 67%;" src="./imgs/mapa.jpg"
+            alt="Foto de uma pessoa apontando para um mapa com uma lupa em um icone de localização">
+        </div>
+      </div>
     </div>
+    <p></p>
+    <a href="#sobrenos"> <img class="pulse" src="./imgs/setasbaixo.png" alt="setas apontando para baixo"></li> </a>
+  </article>
+
+  <p style="margin-top:7%"> </p>
+  <main id="main">
+    <p id="sobrenos" style="color: #f6f8fa;">.</p>
+    <p style="color: #f6f8fa;"> . </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" style="border-radius: 10%;" src="./imgs/team.webp" alt="equipe de pessoas dando a mão">
+        </div>
+        <div class="col-md-6">
+          <p></p>
+          <h6 style="text-align: left;"> Conheça mais nossas sobre nossas funções </h6>
+          <h1 style="text-align: left;">Sobre nós</h1>
+          <p style="margin-top:2%"></p>
+          <h4 style="text-align: left;">A equipe do Procurachei visa auxiliar o usuário a se encontrar. Para isso
+            utilizamos metódos que buscam
+            minimizar a complexidade do usuário em tarefas simples que é localizar o dono de algum item perdido, achar
+            seu próprio item ou tarefas mais
+            complexas como encontrar uma pessoa desaparecida! </h4>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:3%"></p>
+    <div class="container">
+      <div style="flex-direction: row-reverse;" class="row">
+        <div class="col-md-6">
+          <img id="sobrenos" class="img-fluid" style="border-radius: 10%;" src="./imgs/agilize_600x.webp"
+            alt="Imagem de trem rápido indicando velocidade">
+        </div>
         <div class="col-md-6">
           <p></p>
           <h6 style="text-align: right;"> Velocidade no seu sistema </h6>
           <h1 style="text-align: right;">Agilize sua busca</h1>
           <p style="margin-top:2%"></p>
-          <h4 style="text-align: right;">A Procurachei agiliza sua busca tanto de seu objeto ou pessoa perdida, quanto no caso de encontrar o dono de tal objeto ou parentes
-          próximos de alguma pessoa que você encontrou perdida em determinada situação. </h4>
-</div>
-</div>
-</div>
-<p style="margin-top:3%"> </p>
-<div  class="container">
-    <div class="row">
-    <div class="col-md-6">
-        <img id="sobrenos" class="img-fluid" style="border-radius: 10%;" src="./imgs/bastidores.webp" alt="Equipe de pessoas trabalhando com notebooks">
+          <h4 style="text-align: right;">A Procurachei agiliza sua busca tanto de seu objeto ou pessoa perdida, quanto
+            no caso de encontrar o dono de tal objeto ou parentes
+            próximos de alguma pessoa que você encontrou perdida em determinada situação. </h4>
+        </div>
+      </div>
     </div>
+    <p style="margin-top:3%"> </p>
+    <div class="container">
+      <div class="row">
         <div class="col-md-6">
-            <p></p>
-            <h6 style="text-align: left;"> Por trás dos bastidores </h6>
-            <h1 style="text-align: left;">Tecnologia envolvida</h1>
-            <p style="margin-top:2%"></p>
-            <h4 style="text-align: left;">Nosso projeto conta com filtros avançados para melhorar sua busca, além disso consumimos uma API do Google Maps para ajudar
+          <img id="sobrenos" class="img-fluid" style="border-radius: 10%;" src="./imgs/bastidores.webp"
+            alt="Equipe de pessoas trabalhando com notebooks">
+        </div>
+        <div class="col-md-6">
+          <p></p>
+          <h6 style="text-align: left;"> Por trás dos bastidores </h6>
+          <h1 style="text-align: left;">Tecnologia envolvida</h1>
+          <p style="margin-top:2%"></p>
+          <h4 style="text-align: left;">Nosso projeto conta com filtros avançados para melhorar sua busca, além disso
+            consumimos uma API do Google Maps para ajudar
             na localização determinada. </h4>
-            
-</div>
-</div>
-</div>
-<p style="color: #f6f8fa;"> . </p>
-<p style="color: #f6f8fa;">.</p>
-</main>
-<h1 id="comofunciona" style="padding-top: 6%; padding-bottom: 7%;"> Como funciona </h1>
-<div class="container">
-<div class="row">
-<div class="col-md-12" style="padding-left: 10%; padding-right: 10%;">
-  <h6 id="siteh6" style="text-align: left;">Para pesquisas</h6>
-<h4 id="siteh4" style="text-align: left"> Se você quiser pesquisar algo, pra verificar se o que perdeu está em nossos sistemas, não é necessário um cadastro, basta clicar
-no botão abaixo e  na página destino, inserir os filtros para facilitar sua busca!</h4>
-<p style="margin-top:5%"> </p>
-<a href="#" style="text-decoration:none"> <h6 id="botaofunciona" class="pulse"> Achados e Perdidos </h6>  </a>
-<p style="margin-top:10%"> </p>
-<h6 id="siteh6" style="text-align: left;">Para publicar</h6>
-<h4 id="siteh4" style="text-align: left"> Você deve acessar sua conta em nosso sistema clicando abaixo em iniciar sessão. Lembrando que é
-necessário um cadastro completo que passara por análise para uma busca de pessoas.</h4>
-<p style="margin-top:7%"> </p>
-<a href="areadeacesso.html" style="text-decoration:none"> <h6 id="botaofunciona"> Iniciar sessão </h6>  </a>
-<a href="#" style="text-decoration:none"> <h6 id="cadastrese"> (Caso não possua conta, cadastre-se aqui) </h6>  </a>
-<p style="margin-top:7%"> </p>
-</div>
-</div>
-</div>
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <p> </p>
-      <p id="menufooter1"> Menu </p>
-      <a href="#titulodapagina" style="text-decoration:none"> <h1 id="menufooter"> Início </h1>  </a>
-      <a href="#sobrenos" style="text-decoration:none"> <h1 id="menufooter"> Sobre nós </h1>  </a>
-      <a href="areadeacesso.html" style="text-decoration:none"> <h1 id="menufooter"> Acesse sua conta </h1>  </a>
-      <a href="#" style="text-decoration:none"> <h1 id="menufooter"> Achados e Perdidos </h1>  </a>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h1></h1>
-    </div>
-    <div class="col-md-4">
-      <p></p>
-      <p id="menufooter1">Ajuda</p>
-      <a href="#comofunciona" style="text-decoration:none"><h1 id="menufooter"> Como funciona </h1> </a>
-      <a href="#" style="text-decoration:none"><h1 id="menufooter"> Duvidas frequentes </h1> </a>
-    </div>
-    </div>
-  </div>
+    <p style="color: #f6f8fa;"> . </p>
+    <p style="color: #f6f8fa;">.</p>
+  </main>
 
-</footer>
-<div id="footerzinho">
+  <h1 id="comofunciona" style="padding-top: 6%; padding-bottom: 7%;"> Como funciona </h1>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <h5 id="footerzinho"> © ProcurAchei 2022 - Todos os Direitos Reservados</h5>
+      <div class="col-md-12" style="padding-left: 10%; padding-right: 10%;">
+        <h6 id="siteh6" style="text-align: left;">Para pesquisas</h6>
+        <h4 id="siteh4" style="text-align: left"> Se você quiser pesquisar algo, pra verificar se o que perdeu está em
+          nossos sistemas, não é necessário um cadastro, basta clicar
+          no botão abaixo e na página destino, inserir os filtros para facilitar sua busca!</h4>
+        <p style="margin-top:5%"> </p>
+        <a href="#" style="text-decoration:none">
+          <h6 id="botaofunciona" class="pulse"> Achados e Perdidos </h6>
+        </a>
+        <p style="margin-top:10%"> </p>
+        <h6 id="siteh6" style="text-align: left;">Para publicar</h6>
+        <h4 id="siteh4" style="text-align: left"> Você deve acessar sua conta em nosso sistema clicando abaixo em
+          iniciar sessão. Lembrando que é
+          necessário um cadastro completo que passara por análise para uma busca de pessoas.</h4>
+        <p style="margin-top:7%"> </p>
+        <a href="areadeacesso.html" style="text-decoration:none">
+          <h6 id="botaofunciona"> Iniciar sessão </h6>
+        </a>
+        <a href="cadastro.html" style="text-decoration:none">
+          <h6 id="cadastrese"> (Caso não possua conta, cadastre-se aqui) </h6>
+        </a>
+        <p style="margin-top:7%"> </p>
       </div>
     </div>
   </div>
-</div>
-<script type="text/javascript" src="./js/bootstrap.bundle.js"></script> 
-<script>
 
-  
-</script>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p> </p>
+          <p id="menufooter1"> Menu </p>
+          <a href="#titulodapagina" style="text-decoration:none">
+            <h1 id="menufooter"> Início </h1>
+          </a>
+          <a href="#sobrenos" style="text-decoration:none">
+            <h1 id="menufooter"> Sobre nós </h1>
+          </a>
+          <a href="areadeacesso.html" style="text-decoration:none">
+            <h1 id="menufooter"> Acesse sua conta </h1>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <h1 id="menufooter"> Achados e Perdidos </h1>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <p> </p>
+          <a class="navbar-brand" href="#"> <img style="width: 70%;" src="imgs/logo.png" alt="Logo escrito Procurachei com lupa e icone de localização atrás"> </a>
+        </div>
+        <div class="col-md-4">
+          <p></p>
+          <p id="menufooter1">Ajuda</p>
+          <a href="#comofunciona" style="text-decoration:none">
+            <h1 id="menufooter"> Como funciona </h1>
+          </a>
+          <a href="#comofunciona" style="text-decoration:none">
+            <h1 id="menufooter"> Duvidas frequentes </h1>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section id="footerzinho">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h5 id="footerzinho"> © ProcurAchei 2022 - Todos os Direitos Reservados</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="./js/bootstrap.bundle.js"></script>
 </body>
+
 </html>

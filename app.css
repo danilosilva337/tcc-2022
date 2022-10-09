@@ -48,16 +48,18 @@
     padding-bottom: 7%;
 }
 #achadoseperdidos {
-    color: #FFFFFF;
-    background-color: #0d6efd;
-    text-align: center;  
-    font: bold  32pt Century Gothic;
-    padding-right: 2%;
-    padding-left: 2%;
-    text-decoration: none;
-    border: #0d6efd 10px;
-    border-radius: 7%;
-    line-height: 1.4;
+  color: #FFFFFF;
+  background-color: #0d6efd;
+  text-align: center;  
+  font: bold  32pt Century Gothic;
+  text-decoration: none;
+  border: #0d6efd 10px;
+  border-radius: 7%;
+  line-height: 1.4;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 0 auto;
+  display: table;
 }
 #main {
   background-color: #f6f8fa;
@@ -168,15 +170,21 @@
     color: #cccccc;
   }
   #areadeacesso {
-    color: #0d6efd;
+    color: #000000;
     text-align: center;  
     font: bold 42pt Century Gothic;
     width: 100%;
   }
   #esqueceu{
     font: 11pt Century Gothic;
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: right;
+    color: #000000;
+  }
+  #recebera{
+    font: 11pt Century Gothic;
+    padding-top: 2%;
+    text-align: center;
     color: #000000;
   }
   #ntcadastro{
